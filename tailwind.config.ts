@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 export default <Partial<Config>>{
+  plugins: [require("flowbite/plugin"), require("@tailwindcss/forms")],
   theme: {
     extend: {
       colors: {
@@ -25,6 +26,20 @@ export default <Partial<Config>>{
           700: "#2a9918",
           800: "#1c6610",
           900: "#0e3308",
+        },
+        accent: {
+          100: "#f8f9e5",
+          200: "#f2f3cb",
+          300: "#ebeeb2",
+          400: "#e5e898",
+          500: "#dee27e",
+          600: "#b2b565",
+          700: "#85884c",
+          800: "#595a32",
+          900: "#2c2d19",
+        },
+        backgroundImage: {
+          "hero-img": "url(/assets/images/pexels-63703.jpg)",
         },
       },
     },

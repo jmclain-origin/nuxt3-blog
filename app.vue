@@ -1,5 +1,7 @@
 <template>
-  <div>
-    <h1>hello universe</h1>
-  </div>
+  <NuxtLayout>
+    <main class="container mx-auto">
+      <NuxtPage />
+    </main>
+  </NuxtLayout>
 </template>
