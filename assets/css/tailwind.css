@@ -13,4 +13,7 @@
     .nav-link {
         @apply hover:text-secondary-500 cursor-pointer active:translate-y-2 transition-all ease-out duration-200;
     }
+    .social-btn {
+        @apply flex items-center text-2xl justify-center py-2.5 px-5 rounded-lg w-full disabled:opacity-50 disabled:grayscale-[50%] border border-transparent focus:border-primary-500 hover:ring-4 disabled:ring-0 hover:ring-secondary-500 active:translate-y-2 shadow-lg shadow-black/30 transition-all duration-200 ease-in-out;
+    }
 }
