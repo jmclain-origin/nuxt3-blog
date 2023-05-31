@@ -3,5 +3,10 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', '@sidebase/nuxt-auth'],
   typescript: {
     typeCheck: true,
+  },
+  runtimeConfig: {
+    auth: {
+      isEnabled: true,
+    }
   }
 })
